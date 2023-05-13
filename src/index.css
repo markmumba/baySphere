@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "inter" ,sans-serif;
+}
+@layer base{
+    li {
+        @apply p-3
+    }
+}
