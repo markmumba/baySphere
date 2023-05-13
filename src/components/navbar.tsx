@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="flex items-center">
                 <ul className="hidden md:flex ">
                         <li>About</li>
-                        <li><a href="#services">Services</a></li>
+                        <li>Services </li>
                         <li>Pricing</li>
                         <li>Contact</li>
                     </ul>
@@ -32,11 +32,11 @@ const Navbar = () => {
 
                 </div>
             </div>
-            {nav && <ul className="absolute bg-slate-200 w-full px-8">
-                <li className="border-b-2 border-slate-300 w-full ">About</li>
-                <li className="border-b-2 border-slate-300 w-full ">Services </li>
-                <li className="border-b-2 border-slate-300 w-full ">Pricing</li>
-                <li className="border-b-2 border-slate-300  w-full ">Contact</li>
+            {nav && <ul className="absolute  bg-gray-900 border rounded-xl text-white w-full  px-8">
+                <li className="border-b-2 border-slate-300 w-full p-4">About</li>
+                <li className="border-b-2 border-slate-300 w-full  p-4">Services </li>
+                <li className="border-b-2 border-slate-300 w-full  p-4">Pricing</li>
+                <li className="border-b-2 border-slate-300  w-full  p-4">Contact</li>
 
             </ul>
             }

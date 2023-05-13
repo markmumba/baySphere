@@ -14,6 +14,6 @@ body {
 }
 @layer base{
     li {
-        @apply p-3
+        @apply md:p-3  p-2 text-sm md:text-base
     }
 }
