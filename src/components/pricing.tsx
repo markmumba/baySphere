@@ -11,7 +11,7 @@ const Pricing = () => {
 
                 <div>
                     <div className=" grid md:flex md:flex-row justify-center gap-y-10 md:gap-y-20 gap-x-4 p-2 md:p-20 ">
-                        <div className="flex flex-col gap-y-2 p-3 md:p-10  border-gray-200 border-2 rounded-xl">
+                        <div data-aos="fade-up" data-aos-duration="3000" className="flex flex-col gap-y-2 p-3 md:p-10  border-gray-200 border-2 rounded-xl">
                             <h2 className="text-center font-bold ">Starter Package</h2>
                             <p className="text-center font-bold"> <span className="text-3xl">Ksh 3,000</span>/month </p>
                             <p className="text-sm text-center">Designed for Small Businesses</p>
@@ -22,7 +22,7 @@ const Pricing = () => {
                                 <li><i className="bi bi-check2 text-gray-900  " ></i>Local SEO</li>
                             </ul>
                         </div>
-                        <div className="flex flex-col  p-3 md:p-10 border-2 gap-y-2 border-gray-900 rounded-lg">
+                        <div data-aos="fade-up" className="flex flex-col  p-3 md:p-10 border-2 gap-y-2 border-sky-950 rounded-lg">
                             <h2 className="text-center font-bold">Growth Package</h2>
                             <p className="text-center font-bold"><span className="text-3xl">Ksh 6,000</span>/month</p>
                             <p className="text-sm text-center"> Ideal for Growing Businesses</p>
@@ -33,7 +33,7 @@ const Pricing = () => {
                                 <li><i className="bi bi-check2 text-gray-900 " ></i>Monthly Analytics Reports</li>
                             </ul>
                         </div>
-                        <div className="flex flex-col gap-y-2 p-3 md:p-10 border-2 border-gray-200 rounded-lg">
+                        <div data-aos="fade-up" className="flex flex-col gap-y-2 p-3 md:p-10 border-2 border-gray-200 rounded-lg">
                             <h2 className="text-center font-bold ">Pro Package</h2>
                             <p className="text-center font-bold"><span className="text-3xl">Ksh 10,000</span>/month</p>
                             <p className="text-sm text-center">The essentials to provide your best work for clients.</p>

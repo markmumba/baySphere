@@ -32,7 +32,7 @@ const Navbar = () => {
 
                 </div>
             </div>
-            {nav && <ul className="absolute  bg-gray-900 border rounded-xl text-white w-full  px-8">
+            {nav && <ul className="absolute  bg-sky-950 border rounded-xl text-white w-full  px-8">
                 <li className="border-b-2 border-slate-300 w-full p-4">About</li>
                 <li className="border-b-2 border-slate-300 w-full  p-4">Services </li>
                 <li className="border-b-2 border-slate-300 w-full  p-4">Pricing</li>
