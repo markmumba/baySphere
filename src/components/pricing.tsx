@@ -1,4 +1,4 @@
-
+import { motion } from "framer-motion";
 
 const Pricing = () => {
     return (
@@ -11,7 +11,7 @@ const Pricing = () => {
 
                 <div>
                     <div className=" grid md:grid-cols-2  lg:flex lg:flex-row lg:justify-center gap-y-10 md:gap-y-20 gap-x-4 p-2 md:p-10 ">
-                        <div  className="flex flex-col gap-y-2 p-3 md:p-10  border-gray-200 border-2 rounded-lg">
+                        <motion.div whileHover={{ scale: 1.1 }} className="flex flex-col gap-y-2 p-3 md:p-10  border-gray-200 border-2 rounded-lg">
                             <h2 className="text-center font-bold ">Starter Package</h2>
                             <p className="text-center font-bold"> <span className="text-3xl">Ksh 3,000</span>/month </p>
                             <p className="text-sm text-center">Designed for Small Businesses</p>
@@ -21,8 +21,8 @@ const Pricing = () => {
                                 <li><i className="bi bi-check2 text-gray-900  " ></i>Content Creation</li>
                                 <li><i className="bi bi-check2 text-gray-900  " ></i>Local SEO</li>
                             </ul>
-                        </div>
-                        <div  className="flex flex-col  p-3 md:p-10 border-2 gap-y-2 border-sky-950 rounded-lg">
+                        </motion.div>
+                        <motion.div whileHover={{ scale: 1.1 }}  className="flex flex-col  p-3 md:p-10 border-2 gap-y-2 border-sky-950 rounded-lg">
                             <h2 className="text-center font-bold">Growth Package</h2>
                             <p className="text-center font-bold"><span className="text-3xl">Ksh 6,000</span>/month</p>
                             <p className="text-sm text-center"> Ideal for Growing Businesses</p>
@@ -32,8 +32,8 @@ const Pricing = () => {
                                 <li><i className="bi bi-check2 text-gray-900  " ></i>Search Engine Optimization </li>
                                 <li><i className="bi bi-check2 text-gray-900 " ></i>Monthly Analytics Reports</li>
                             </ul>
-                        </div>
-                        <div  className="flex flex-col gap-y-2 p-3 md:p-10 border-2 border-gray-200 rounded-lg">
+                        </motion.div>
+                        <motion.div whileHover={{ scale: 1.1 }}  className="flex flex-col gap-y-2 p-3 md:p-10 border-2 border-gray-200 rounded-lg">
                             <h2 className="text-center font-bold ">Pro Package</h2>
                             <p className="text-center font-bold"><span className="text-3xl">Ksh 10,000</span>/month</p>
                             <p className="text-sm text-center">The essentials to provide your best work for clients.</p>
@@ -43,7 +43,7 @@ const Pricing = () => {
                                 <li><i className="bi bi-check2 text-gray-900 " ></i>Content Marketing</li>
                                 <li><i className="bi bi-check2 text-gray-900 " ></i>Comprehensive Monthly Reports</li>
                             </ul>
-                        </div>
+                        </motion.div>
 
                     </div>
                 </div>
