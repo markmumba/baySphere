@@ -15,11 +15,11 @@ const Navbar = () => {
                     <h1 className="text-3xl  font-bold sm:text-4xl ">Bay Sphere</h1>
                 </div>
                 <div className="flex items-center">
-                <ul className="hidden md:flex ">
-                        <li>About</li>
-                        <li>Services </li>
-                        <li>Pricing</li>
-                        <li>Contact</li>
+                    <ul className="hidden md:flex ">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div className="md:hidden" onClick={handleClick}>

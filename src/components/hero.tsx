@@ -4,8 +4,10 @@ const Hero = () => {
 
     return (
         <>
+            <div className=' pt-20 md:pt-40 absolute inset-0 flex justify-center -z-10'>
+                <div className=" w-[320px] h-[320px]   md:w-[720px] md:h-[720px] rounded-full opacity-20 blur-3xl bg-black "></div>
+            </div>
             <div className=" pt-20 grid md:flex md:space-x-40">
-
                 <div className="text-4xl md:text-7xl  font-bold p-8  md:py-60 md:px-16 max-w-5xl">
                     <h1>The agency you've been looking for</h1>
                     <h2 className='text-sm md:text-xl pt-5'>Branding & Creative | Digital & Web Design | Advertising & Content</h2>

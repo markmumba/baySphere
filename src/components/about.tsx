@@ -5,7 +5,7 @@ import success from '../assets/images/business-success-chart.svg'
 const About = () => {
     return (
         <>
-            <div className=" py-10 md:py-28">
+            <div id="about" className=" py-10 md:py-28">
                 <h2 className="text-center font-bold  text-4xl md:text-5xl">About Us</h2>
                 <div className=' grid  md:flex md:space-x-40 md:px-60'>
                     <div className='p-7 md:p-20 font-medium md:text-lg max-w-3xl'>

@@ -3,7 +3,7 @@
 const Contact = () => {
 
     return (
-        <div className=" bg-gray-900 text-slate-300">
+        <div id="contacts" className=" bg-gray-900 text-slate-300">
             <div className=" grid md:flex md:p-20 ">
                 <div className=" p-4 md:py-20 md:px-10">
                     <h2 className=" text-2xl md:text-4xl font-bold ">Bay sphere </h2>
