@@ -10,7 +10,7 @@ const Pricing = () => {
                     creating customer loyalty, and driving sales.</p>
 
                 <div>
-                    <div className=" grid md:flex md:flex-row justify-center gap-y-10 md:gap-y-20 gap-x-4 p-2 md:p-10 ">
+                    <div className=" grid grid-cols-2  lg:flex lg:flex-row lg:justify-center gap-y-10 md:gap-y-20 gap-x-4 p-2 md:p-10 ">
                         <div  className="flex flex-col gap-y-2 p-3 md:p-10  border-gray-200 border-2 rounded-lg">
                             <h2 className="text-center font-bold ">Starter Package</h2>
                             <p className="text-center font-bold"> <span className="text-3xl">Ksh 3,000</span>/month </p>

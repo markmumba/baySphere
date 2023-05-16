@@ -5,12 +5,12 @@ const Service = () => {
         <>
             <div id="services" className="pt-[-10rem]">
                 <h1 className="text-center font-bold  text-4xl md:text-5xl">What we do</h1>
-                <p className="text-center  md:text-xl font-medium px-4 py-3 md:px-60 md:py-10 ">Our team creates customized strategies tailored
+                <p className="text-center  md:text-2xl font-medium px-4 py-3 lg:px-60 md:py-10 ">Our team creates customized strategies tailored
                     to each client's specific goals, whether it's increasing website traffic,
                     generating leads, or building brand awareness.
                     We're dedicated to delivering exceptional results and customer service.
                 </p>
-                <div className="grid md:flex justify-center py-10 gap-7 p-4">
+                <div className="grid grid-cols-2 lg:flex justify-center py-10 gap-7 p-4">
                     <motion.div whileHover={{ scale: 1.1 }}
                      className="border border-gray-200 rounded-lg max-w-sm p-7 shadow-lg">
                         <div className="flex justify-center"><i className="bi bi-code-slash text-sky-950" style={{ fontSize: "3rem" }}></i></div>
