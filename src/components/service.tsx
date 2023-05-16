@@ -10,7 +10,7 @@ const Service = () => {
                     generating leads, or building brand awareness.
                     We're dedicated to delivering exceptional results and customer service.
                 </p>
-                <div className="grid grid-cols-2 lg:flex justify-center py-10 gap-7 p-4">
+                <div className="grid md:grid-cols-2 lg:flex justify-center py-10 gap-7 p-4">
                     <motion.div whileHover={{ scale: 1.1 }}
                      className="border border-gray-200 rounded-lg max-w-sm p-7 shadow-lg">
                         <div className="flex justify-center"><i className="bi bi-code-slash text-sky-950" style={{ fontSize: "3rem" }}></i></div>
