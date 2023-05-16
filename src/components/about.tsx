@@ -7,21 +7,21 @@ const About = () => {
         <>
             <div id="about" className=" py-10  lg:py-28">
                 <h2 className="text-center font-bold  text-4xl md:text-5xl">About Us</h2>
-                <div className=' grid  md:flex lg:space-x-40 lg:px-60'>
-                    <div className='p-7 lg:p-20 font-medium md:text-2xl max-w-md lg:max-w-3xl'>
+                <div className=' grid  md:flex lg:space-x-40 lg:px-60 '>
+                    <div className='p-7 lg:p-20 font-medium  text-gray-500 md:text-2xl text-xl max-w-md lg:max-w-3xl'>
                         <p>Our mission is to empower businesses
                             of all sizes to achieve their online
                             goals and unlock their true potential. We believe that digital marketing is not just about generating leads or increasing
-                            website traffic; it's about creating meaningful
+                            website traffic; it's about <span className='text-black'>creating meaningful
                             connections, building brand authority,
-                            and driving sustainable growth.
+                            and driving sustainable growth.</span>
                         </p>
                     </div>
                     <div className=' px-20 md:pl-10 md:pt-12 lg:pt-16 '> <img className='w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] border rounded-xl  shadow-lg' src={startup} /> </div>
                 </div>
                 <div className='grid  md:flex lg:space-x-40 lg:px-60'>
-                    <div className='px-20 md:px-10 md:pt-10  lg:pt-16'> <img className='w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] border rounded-xl  shadow-lg' src={keynote} /> </div>
-                    <div className='p-7 lg:p-20 font-medium md:text-2xl max-w-md lg:max-w-3xl'>
+                    <div className='hidden md:block px-20 md:px-10 md:pt-10  lg:pt-16'> <img className='w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] border rounded-xl  shadow-lg' src={keynote} /> </div>
+                    <div className='p-7 lg:p-20 font-medium text-gray-500 md:text-2xl text-xl max-w-md lg:max-w-3xl'>
                         <p> With years of experience
                             in the industry, our team has a deep understanding of the
                             ever-evolving digital landscape. We stay up-to-date with the latest trends,
@@ -30,9 +30,9 @@ const About = () => {
                     </div>
                 </div>
                 <div className='grid  md:flex lg:space-x-40 lg:px-60'>
-                    <div className='p-7 lg:p-20 font-medium md:text-2xl max-w-md lg:max-w-3xl'>
+                    <div className='p-7 lg:p-20 font-medium text-gray-500 md:text-2xl text-xl max-w-md lg:max-w-3xl'>
                         <p>The digital landscape is dynamic,
-                            and we are committed to continuous learning and growth. We actively seek new opportunities,
+                            and we are committed to continuous learning and growth. We actively <span className='text-black'>seek new opportunities,</span>
                             embrace innovation, and adapt our
                             strategies to ensure our clients stay ahead
                             in the ever-changing digital world.

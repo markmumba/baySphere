@@ -1,10 +1,15 @@
 import businessImage from '../assets/images/1.svg'
+import { motion, useScroll } from "framer-motion"
+
 
 const Hero = () => {
+    const { scrollYProgress } = useScroll();
+
 
     return (
         <>
-            <div className=' pt-20 md:pt-40 absolute inset-0 flex justify-center -z-10'>
+         <motion.div className='mt-20 fixed h-1 bg-sky-950 origin-left top-0 left-0 right-0' style={{ scaleX: scrollYProgress }} />  
+            <div className=' pt-20 md:pt-40 absolute inset-0 flex justify-center -z-10 '>
                 <div className=" w-[320px] h-[320px]   md:w-[720px] md:h-[720px] rounded-full opacity-20 blur-3xl bg-black "></div>
             </div>
             <div className=" pt-20 grid lg:flex lg:space-x-40">
